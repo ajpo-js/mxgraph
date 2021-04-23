@@ -17,6 +17,7 @@
   },
   "main": "./javascript/dist/build.js",
   "scripts": {
+    "start": "index.js",
     "prepare": "grunt build --base ./ --gruntfile etc/build/Gruntfile.js"
   },
   "devDependencies": {
@@ -26,5 +27,8 @@
     "grunt-webpack": "^2.0.1",
     "load-grunt-tasks": "^3.5.2",
     "webpack": "^2.2.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
